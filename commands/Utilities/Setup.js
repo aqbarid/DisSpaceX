@@ -25,7 +25,7 @@ module.exports = {
                 .setColor(client.color)
                 .setAuthor({ name: `No song playing currently.` })
                 .setImage(`https://images2.alphacoders.com/110/thumb-1920-1109233.jpg`)
-                .setDescription(`>>> [Invite](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=2184310032&scope=bot%20applications.commands) | [Support](https://discord.gg/SNG3dh3MbR) | [Website](https://adivise.github.io/Stylish/)`)
+                .setDescription(`>>> [Invite](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=2184310032&scope=bot%20applications.commands)`)
                 .setFooter({ text: `Prefix is: /` });
 
             // SEND BANNER FIRST!
